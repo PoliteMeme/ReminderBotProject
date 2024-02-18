@@ -14,7 +14,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 import MySQLdb
-connect = MySQLdb.connect(user='AquaMarine', password='6487a012Zx', host='localhost', database='reminderbot')
+connect = MySQLdb.connect(user='USERNAME', password='PASSWORD', host='localhost', database='DATABASE')
 cursor=connect.cursor()
 
 class ReminderSet(StatesGroup):
